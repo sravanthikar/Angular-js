@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="mySpa">
+<head>
+</head>
+<body>
+
+    <div style="height:50px;background-color:aquamarine;">
+        This is Fixed header <br />
+        <a href="#aboutme"> About Me</a>
+        <a href="#contactme"> Contact Me</a>
+    </div>
+    <br />
+    <br />
+    <br />
+    <ng-view>
+    </ng-view>
+    <br />
+    <br />
+    <br />
+
+    <div style="height:50px;background-color:aquamarine;">
+        This is Fixed Footer <br />
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
+    <script type="text/javascript" src="spa.js"></script>
+    <script type="text/javascript" src="aboutmeController.js"></script>
+    <script type="text/javascript" src="contact.js"></script>
+</body>
+</html>
