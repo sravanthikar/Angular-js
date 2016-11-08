@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is Note Pad application</title>
+	<script src=
+"http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script type="text/javascript" src="notepadctrl.js"></script>
+</head>
+<body ng-app="notepadapp" ng-controller="notepadctrl">
+<!--<textarea style="background-color:pink;color:green" ng-model="message" ></textarea>-->
+<textarea style="background-color:pink;color:green" ng-model="message" cols="80" rows="20" class="ng-pristine ng-untouched ng-valid"></textarea>
+<p align="centre">
+<button ng-click="save()">save</button>
+<button ng-click="clear()">clear</button>
+</p>
+</body>
+</html>
